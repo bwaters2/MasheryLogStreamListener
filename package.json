@@ -1,0 +1,15 @@
+{
+  "name": "masheryloglistener",
+  "version": "1.0.0",
+  "description": "Connects to mashery log stream via websocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "ws": "^7.1.2"
+  }
+}
