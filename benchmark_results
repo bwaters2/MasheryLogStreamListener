@@ -1,0 +1,20 @@
+Logged the amount of events handle over time and the log file size generated to get a better idea of the cost of serverless vs server
+
+Estimated Monthly usage:
+88,000,000 events from socket (2000 events per min * 44,000 mins)
+8000 MB of storage (182kb per min * 44000)
+
+
+Benchmarks:
+First run 9/10 11:15am
+    180 secs
+    6032 events
+    log file size: 472 lines / 548kb
+Second run 9/10 11:30 am
+    480 secs
+    16480 events
+    log file size: 1404 lines / 1643 kb
+Third run 11:45 am 9/10
+    600 secs
+    21100 events
+    log file size: 1800 lines / 2119 kb

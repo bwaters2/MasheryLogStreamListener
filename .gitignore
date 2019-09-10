@@ -1,4 +1,4 @@
 node_modules
 package-lock.json
-masheryLog.log
+masherystream.log
 .env
